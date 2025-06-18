@@ -1,0 +1,42 @@
+body {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    font-family: "Outfit", sans-serif; /* Sets a default font */
+    background-color: hsl(212, 45%, 89%); /* Slate-300 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container {
+    background-color:  white;
+    border-radius: 20px;
+    padding: 16px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.container img{
+    width: 100%;
+    border-radius: 20px;
+}
+.container-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin: 20px 0 10px;
+   
+}
+.container-title-paragraph{
+    font-size: 10px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin: 0 16px 10px;  
+    
+}
+@media screen and (max-width: 375px) {
+    .container {
+     width: 90%;
+    }
+}
